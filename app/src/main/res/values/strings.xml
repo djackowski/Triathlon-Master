@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Triathlon Master</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fused_location">FusedLocation</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_menu">menu</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cycling">Cycling</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_schedule_medium">Schedule_medium</string>
+
+
+    <string name="information_triathlon">
+        <big><b>Triathlon (gr. trójbój) –</b></big> wszechstronna dyscyplina sportowa będąca kombinacją pływania, kolarstwa i biegania. Zawodnik kolejno płynie, jedzie na rowerze i biegnie, a czas końcowy obejmuje również zmianę stroju sportowego.
+        Pierwszy triathlon zorganizowano 25 września 1974 r. w San Diego w Kalifornii (USA) na dystansie 500 jardów pływania, 5 mil jazdy rowerem i 6 mil biegu, a w 2000 roku wszedł do rozgrywek olimpijskich na Igrzyskach Olimpijskich w Sydney.
+        W Polsce pierwszy triathlon odbył się w Kiekrzu koło Poznania 14 lipca 1984 roku na dystansie 1,5km/50km/20km.
+    </string>
+
+    <string name="information_rules">
+        <big><b>Triathlon</b></big> to typowy sport indywidualny. Zwycięża zawodnik z najlepszym czasem. Jeśli start odbył się ze startu wspólnego jest nim zawodnik, który pierwszy dobiega do mety.
+        Zawodnicy nie mogą korzystać z pomocy z zewnątrz oprócz wolontariuszy zajmujących się dostarczaniem żywności na trasie. Zazwyczaj zabronione są taktyki zespołowe, które np. podczas jazdy rowerem mogą doprowadzić do zmniejszenia oporu powietrz. Zawodnik nie może używać szklanych butelek
+        ani sprzętu elektronicznego z wyjątkiem zegarka. Uczestnik zawodów nie może robić niczego, co stanowi zagrożenie dla siebie lub innych uczestników. W praktyce jednak, każda impreza triathlonowa charakteryzuje się mniej lub bardziej zmodyfikowanymi zasadami, zawartymi w regulaminie zawodów (ze względu na trasę, ukształtowanie terenu, porę roku itp.), dlatego też ciężko jest ustalić sztywne zasady dla wszystkich wydarzeń.
+        Większość naruszeń przepisów powoduje kosztowne kary czasowe, od jednej do 12 minut, w zależności od wagi naruszenia przepisów oraz długość wyścigu.
+        Ponadto triathlon posiada szereg regulacji do każdej z dyscyplin składowych.
+    </string>
+
+    <string name="information_distances">
+        <big><b>Triathlon rozgrywany jest na różnych dystansach:</b></big>\n\n<b>Super Sprinterski:</b> 0,6 km pływania / 15 km jazdy rowerem / 3 km biegu\n\n<b>Sprinterski:</b> 0,75 km pływania / 20 km
+        jazdy rowerem / 5 km biegu\n\n<b>Olimpijski (standard):</b> 1,5 km pływania / 40 km
+        jazdy rowerem / 10 km biegu\n\n<b>Dystans długi:</b> 1,9 km pływania / 80 km
+        jazdy rowerem / 20 km biegu\n\n<b>International Triathlon Union (ITU) – długi
+        dystans:</b> 4 km pływania / 130 km jazdy rowerem / 30 km biegu\n\n<b>Half-Ironman (Ironman 70.3):</b> 1,9 km
+        pływania / 90 km jazdy rowerem / 21 km biegu\n\n<b>IRONMAN:</b> 3,8 km pływania / 180 km
+        jazdy rowerem / 42 km biegu\n\n<b>Iron:</b> dystanse zbliżone do Ironman\n\n<b>Ultraman Triathlon:</b> 10 km
+        pływania / 421 km jazdy rowerem / 84 km biegu\n
+    </string>
+
+    <string name="diet_food">
+        <big><b>Trening długi i umiarkowany</b></big>\n\n<b>Przed treningiem:</b>\nNic. Ale będziesz jadł w czasie treningu. Podczas ćwiczeń gdzie pracujemy
+        nad bazą tlenową nie potrzebujemy śniadania. Twoje mięśnie przechowują wystarczającą ilość
+        glikogenu, abyś mógł wykonywać wysiłek przez godzinę lub nawet więcej. Dodatkowo trening na
+        czczo uczy organizm korzystania z rezerw tłuszczu zgromadzonego w organizmie(który jest
+        głównym paliwem podczas długich wyścigów).\n\n<b>Podczas treningu:</b> Wafle ryżowe z masłem orzechowym i dżemem, napoje z elektrolitami, banany,
+        batony energetyczne, woda. Po 90 minutach lekkiego treningu musisz zacząć uzupełniać
+        glikogen i upewnić się, że wystarczy Ci paliwa do końca planowanego treningu. Podczas
+        długich treningów Twój organizm powinien tolerować pełnowartościowe jedzenie, które zaspokoi
+        Twój głód i dostarczy niezbędnych wartości. Nie można tutaj polegać na żelach i napojach
+        energetycznych. Pamiętajmy o stosowaniu napojów bogatych w elektrolity, suplementów
+        elektrolitycznych (np. SaltStick) aby zachować odpowiednie nawodnienie organizmu.\n\n<b>Po treningu:</b> Jajka sadzone, szpinak, wędzony łosoś, ziemniaki. Bogate w wartości odżywcze,
+        białko i węglowodany jedzenie wspomoże regenerację organizmu 30-45min po treningu. Łosoś
+        bogaty jest w kwasy tłuszczowe omega-3 pomagają zredukować stany zapalne mięśni i ich ból.\n\n
+
+        <big><b>Trening krótki i intensywny</b></big>\n\n<b>Przed treningiem:</b>\nKawa i banan. Kofeina wspomaga wydolność organizmu. Jeśli nie pijasz
+        regularnie kawy, dobrym pomysłem będzie wypijanie jej przed treningami wysokiej
+        intensywności lub interwałami. Przyswojenie małej ilości węglowodanów w postaci banana
+        pomoże Ci zmaksymalizować ilość zmagazynowanego glikogenu bez długiego procesu trawienia\n\n<b>Podczas treningu:</b>\nNapoje sportowe, żele energetyczne. Twój układ trawienny musi być
+        wytrenowany jak mięsień, aby tolerować pokarm w czasie wyścigu. Powinieneś regularnie
+        trenować spożywanie żeli i napojów w czasie intensywnego wysiłku.\n\n<b>Po treningu:</b>\nSmoothie z koncentratem białka, jagodami, orzechami i i jogurtem z dużą
+        zawartością tłuszczu. Po ciężkich treningach nasz głód może być wzmożony. Płynny pokarm jest
+        korzystny w takim przypadku, ponieważ szybciej się trawi. Ten szejk z białkiem,
+        węglowodanami, antyoksydantami i tłuszczami pozwoli przyspieszyć uzupełnianie glikogenu i
+        regenerację mięśni. Pamiętajmy zawsze o piciu wody przed, w czasie i po treningu.
+    </string>
+
+
+
+    <string name="startday">
+        <big><b>14 dni do zawodów triathlonowych:</b></big>\n\n
+
+        Kiedy już zgłosiłeś chęć wzięcia udziału w danym wyścigu, nagle zostaniesz zawalony lawiną informacji dotyczącą tego wydarzenia.  Jeżeli jeszcze ich nie przeczytałeś, zrób to teraz.
+        Nie zostawiaj przypadkowi nawet najmniejszych detali. Spójrz na mapę wyścigu. Czy pływanie ma tylko jedno okrążenie? Gdzie są podjazdy na trasie rowerowej? Wszystkie  rzeczy,
+        które wyglądają zwodząco powinny być sprawdzone własnoręcznie np. poprzez przejechanie się po trasie samochodem lub zasięgnięcia opinii organizatorów.
+
+        \n\n<b>Próba wyścigowa</b>\n\n
+        Jeżeli jest to możliwe, postaraj się zrobić ‘próbę wyścigową’, podczas której wstaniesz na godzinę, która będzie Ci odpowiadała. Zjedz śniadanie a potem idź pływać, jeździć i biegać w zestawie, który będziesz znosił podczas właściwego wyścigu.
+        Nawet jeżeli nie jesteś w stanie zrobić treningu wszystkich trzech dyscyplin, postaraj się zrobić dwie dyscypliny. Po prostu postaraj się pobiegać po spokojnej jeździe na rowerze, byś był w kontakcie z uczuciem biegania po zejściu z roweru.
+
+        \n\n<b>Wyciszenie</b>\n\n
+        Tak, jak wielki dzień zbliża się wielkimi krokami, musisz starać się zmniejszyć ilość ćwiczeń, w celu zwiększenia regeneracji.
+        Dla wyścigu sprinterskiego tydzień jest wystarczający, natomiast 7 do 10 dni jest stosowne do zrobienia dystansu Olimpijskiego.
+        W tym czasie nie rób błędu polegającego na redukcji obciążeń treningowych. Chcesz zredukować ilość, nie jakość treningów. Jeżeli robisz 60 min spokojnego biegu, teraz powinieneś to zmienić na 30 min biegu.
+
+
+        \n\n<b>Wskocz do wody</b>\n\n
+        Jeżeli nigdy w niej nie pływałeś, pójdź sam popływać w piance przed zawodami. Praktykowanie tego przed wyścigiem zredukuje ryzyko paniki, która może zostać wywołana w dniu startu.
+
+
+        \n\n<big><b>7 dni do zawodów triathlonowych.</b></big>\n\n
+
+        <b>Sprawdź rower.</b>\n\n
+        Trenowałeś na nim przez miesiące, więc teraz Twój rower będzie potrzebował małego przeglądu.
+        Na wielu wydarzeniach podczas zawodów prawie zawsze dostępni są mechanicy, którzy mogą dokonać szybkich napraw lub przeglądów za małą opłatą. Jednak nie dopuść, by kiedykolwiek była taka potrzeba.
+
+        \n\n<b>Jedz mądrze.</b>\n\n
+        Ilość treningów to nie jedyna rzecz, która powinna zostać zredukowana w tym tygodniu. Nie potrzebujemy zbyt dużej ilości kalorii, gdyż nie będziemy w stanie ich spalić, tak więc w tym czasie musimy dobierać jedzenie z rozsądkiem. Ale musimy jeszcze utrzymać to w równowadze wraz z faktem, że przed nami wielkie psychiczne obciążenie.
+        Upewnijmy się, czy ilość węglowodanów w naszym organizmie jest na tyle duża, żeby wytwarzać wystarczającą ilość glikogenu w naszych mięśniach. Warto jest zachować abstynencję od alkoholu na tydzień przed zawodami, aby utrzymać dobrą ilość nawodnienia. Ale nie ma żadnych przeciwwskazań do wypicia piwa lub dwóch po wyścigu.
+
+        \n\n<big><b>3 dni do zawodów triatlonowych.</b></big>\n\n
+
+        <b>Użyj głowy</b>\n\n
+        Według Richarda Allena to strach przed nieznanym wkrada w nasze zachowania nerwowość. „ Pomyślmy o tym, co może pójść źle i co zrobimy, jeżeli rzeczywiście tak się stanie”- doradza. „Chcemy mieć pewność, że gdy jednak jakaś jedna rzecz pójdzie źle, cały wyścig nam się nie zawali. Kluczową rolą jest uzmysłowienie sobie, co nas najbardziej niepokoi i jak sobie z tym poradzić. Dla przykładu, co zrobimy jeżeli ktoś przypadkiem pozbawi nas gogli? Kiedy masz już strategię na każdą ewentualność, czujesz się pewniej”.
+        Dobrą rzeczą jest też myślenie o czymś, co sprawia Ci radość podczas wyścigu- dla przykładu uczucie jazdy na rowerze po zamkniętych ulicach Warszawy lub słyszeć, jak Twoi bliscy i rodzina ściskają za Ciebie kciuki.
+        Wielu początkujących, a czasami nawet doświadczonych triatlonistów, zapomina o prawdziwej radości, którą należy czerpać z tego sportu.
+
+        <b>Spakuj się</b>\n\n
+        Zrób listę wszystkiego, co będzie Ci potrzebne podczas wyścigu (wzór listy wyścigowej podany na dole). Kiedy przychodzi czas pakowania, stawiaj znaczki przy rzeczach, które już spakowałeś, by nie zapomnieć o czymkolwiek.
+
+        \n\n<big><b>2 dni do zawodów triathlonowych.</b></big>\n\n
+
+        <b>Nie rób nic</b>\n\n
+        Powinien być to dzień totalnego odpoczynku- kulminacja tego okresu. Więc, żadnego treningu, żadnych intensywnych ruchów, za to dużo czasu na kanapie.
+
+        \n\n<b>Sprawdź pogodę</b>\n\n
+        Prognoza pogody powinna być w tym czasie wystarczająco dokładna, więc sprawdźmy warunki dla miejsca startu.Pomoże Ci to zdecydować, jakie dodatkowe ubrania wziąć ze sobą.
+
+        \n\n<big><b>24 godziny do startu</b></big>\n\n
+
+        <b>Trenuj delikatnie</b>\n\n
+        „Jest to czas, kiedy powinieneś odbyć ostatnią sesję treningową przed wyścigiem. Pomoże Ci to aktywować ciało i umysł. Trzymaj się tej rady. Krótkie pływanie, jazdę i bieg. 5-10 min każdej dyscypliny w rytmie wyścigowym powinno wystarczyć. Jeżeli nie możesz zrobić z jakiś względów wszystkich, zrób ile możesz.
+
+        \n\n<big><b>Podsumowanie</b></big>\n\n
+        Jeżeli rejestrujesz się dziś, przeczytaj wszystkie informacje dotyczące wyścigu przed wyjazdem. Może dojść do sytuacji, gdy nie doczytaliśmy czegoś pierwotnie i na noc przed wyścigiem będąc już na miejscu okazuje się, że nie mamy jakiejś ważnej rzeczy, np. legitymacji czy paszportu.
+
+        \n\n<b>Rejestracja</b>\n\n
+        Kiedy już przejdziesz rejestrację, wokół pola rejestracyjnego znajdziesz zapewne wiele miejsc do odpoczynku i sklepów. Nie stój na nogach zbyt wiele czasu i nie spędzaj go na szukanie jakichś nowych ubiorów, których nie wypróbowałeś przed wyścigiem (otarcia podczas wyścigu mogą być szczególnie niebezpieczne). Warto stawić się na odprawie przedwyścigowej, jeżeli takowa jest. Pozwoli to rozwiać wszelkie wątpliwości oraz zebrać dodatkowe informacje na temat  wyścigu.
+
+        \n\n<b>Naładuj się</b>\n\n
+        Miej pewność, że jesteś wystarczająco nawodniony i przyjąłeś dużą ilość węglowodanów. Jeżeli jesteś daleko od domu, nie zbliżaj się do nieznanego jedzenia, jedz tylko to, co znasz. Twoje główne posiłki tego dnia powinny zawierać duże złoża węglowodanów, w postaci płatków, skrobiowych owoców i warzyw, makaronów, chleba, ryża i ziemniaków.
+    </string>
+
+
+    <string name="diethydro" formatted="false">
+    Tradycyjny pogląd dotyczący nawodnienia, skłania nas do twierdzenia że należy pić tyle, ile jesteśmy w stanie wypić w trakcie ćwiczeń, a na pewno nie powinniśmy czekać do momentu, aż będziemy spragnieni.
+    Najnowsze badania jasno określają, że należy pić tylko tyle, aby zapobiec spadkowi masy ciała o 2%. Problemem jest, określenie, który to moment?
+    Istnieje pogląd, że niedopuszczanie organizmu do stanu spragnienia zapewni nam 100% pewność, że będziemy mieli odpowiednią ilość wody w organizmie. Dowody rzeczywiście pokazują, że picie większej ilości płynów niż to konieczne nie wpływa na wydajność w porównaniu do picia tylko do poziomu pragnienia.
+    Kiedy zaczynasz się odwadniać ilość krwi krążącej wokół ciała spada. Dodatkowo zmniejsza to możliwości jelita do wchłaniania substancji odżywczych. Może się okazać, że cukry, które spożywasz podczas treningu czy zawodów podczas odwodnienia będą bezużyteczne. Spójrzmy na kilka strategii, które mogą pomóc utrzymać odpowiedni poziom nawodnienia.
+    \n\n<big><b>Trening nawadniania</b></big>\n\n
+    Podczas treningu najlepiej jest pozostać na wysokim poziomie nawodnienia i z reguły pić trochę więcej niż wydaje się, że jest nam potrzebne. Dobre nawodnienie korzystnie wpływa na nasz układ odpornościowy. Jeśli się odwodnisz, układ odpornościowy jest bardziej podatny na infekcje i wirusy. Jak wiadomo choroba nie jest dobrym partnerem treningowym
+    Pij co najmniej 500 ml na godzinę na rowerze – zwiększając tą ilość do 750ml w lecie.
+    Pij 500ml na godzinę w czasie pływania. Staraj się monitorować stan nawodnienia rano. Kiedy idziesz do toalety w godzinach porannych, kontroluj kolor swojego moczu. Jeśli mocz jest lekko kolorowy, wszystko jest w porządku. Jeśli jest ciemny oznacza to, że musisz pić więcej.
+    Nawodnienie przed i w trakcie wyścigu. Problem odpowiedniego nawodnienia przed wyścigiem powinien w głównej mierze skierowany być na największą wydajność organizmu w dniu zawodów. W pierwszej kolejności musisz mieć pewność, że jesteś odpowiednio nawodniony w dniu startu. Jeżeli chcesz osiągnąć swoje najlepsze rezultaty to jest to bardzo ważny punkt przygotowania przed zawodami.
+    W dniach poprzedzających wyścig, możesz używać trochę więcej soli do posiłków, aby pomóc organizmowi w zatrzymywaniu wody, którą pijesz. Spożywaj napoje z elektrolitami w ciągu dnia, aby zwiększyć ilość płynów.
+    Wypij 500 - 1000 ml płynu na śniadanie przed wyścigiem, nadal spożywaj elektrolity w formie  pitnej aż do wyścigu.
+    Zaplanuj spożycie płynów na rowerze, a do tego spożycie węglowodanów. Jest to bardzo ważne zwłaszcza w wyścigach na długim dystansie. Staraj się  dążyć do spożycia minimum 20-30 g węglowodanów na rowerze w ciągu każdej godziny. Do tego oczywiście możesz pić napoje elektrolityczne.
+    Podczas dystanus Ironman, staraj się pić 500-750ml na godzinę. W zależności od Twojej wagi i temperatury powietrza.
+    W biegu, podczas dystansu olimpijskiego, zwilż usta a resztę wlej sobie na głowę. W biegu maratońskim podczas Ironman, pij aż do ugaszenia pragnienia.
+    Pamiętaj przy tym o spożyciu węglowodanów.
+
+    </string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login_fragment"
+            android:icon="@drawable/login"
+            android:title="Zaloguj"
+            android:visible="true" />
+        <item
+            android:id="@+id/gps_fragment"
+            android:icon="@drawable/login"
+            android:title="GPS"
+            android:visible="true" />
+        <item
+            android:id="@+id/register_fragment"
+            android:icon="@drawable/signup"
+            android:title="Rejestracja"
+            android:visible="true" />
+        <item
+            android:id="@+id/treningi"
+            android:icon="@drawable/trainingicon"
+            android:title="Treningi"
+            android:visible="true" />
+        <item
+            android:id="@+id/dieta"
+            android:icon="@drawable/paper_diet"
+            android:title="Dieta"
+            android:visible="true" />
+        <item
+            android:id="@+id/statystyki"
+            android:icon="@drawable/statistics"
+            android:title="Statystyki"
+            android:visible="true" />
+        <item
+            android:id="@+id/navigation_drawer_settings"
+            android:icon="@drawable/settings"
+            android:title="Ustawienia"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/informacje"
+            android:icon="@drawable/infoicon"
+            android:title="Informacje o zawodach"
+            android:visible="true" />
+        <item
+            android:id="@+id/dzienzawodow"
+            android:icon="@drawable/trophy"
+            android:title="Zawody"
+            android:visible="true" />
+        <item
+            android:id="@+id/logout_fragment"
+            android:icon="@drawable/logout"
+            android:title="Wyloguj"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/navigation_drawer_exit"
+            android:icon="@drawable/exit"
+            android:title="Wyjście"
+            android:visible="true" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback1"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:src="@drawable/foodicon2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewFood"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/glasswater"
+        android:id="@+id/imageViewWater"
+        android:paddingBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageViewFood"
+        android:layout_alignStart="@+id/imageViewFood" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Posiłki"
+        android:textSize="32dp"
+        android:background="#40ffffff"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/imageViewFood"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#40ffffff"
+        android:textSize="32dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nawodnienie"
+        android:id="@+id/textView14"
+        android:layout_alignBottom="@+id/imageViewWater"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRelavitve"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
+
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.djackowski.gps_maps.GPSMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include"
+        android:layout_weight="0.30"
+        tools:layout="@layout/fragment_gps_map_layout" />
+
+    <TextView
+        android:id="@+id/textViewTimeFromButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingRight="56dp"
+        android:text="00:00:00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="52dp"
+        android:layout_marginRight="233dp"
+        android:layout_marginEnd="233dp"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_alignRight="@+id/textViewTimeFromButtons"
+        android:layout_alignEnd="@+id/textViewTimeFromButtons">
+
+
+    </RelativeLayout>
+
+    <!-- <TextView
+        android:id="@+id/textViewIsDoneYet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Trening nie został jeszcze ukończony"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" /> -->
+
+    <Button
+        android:id="@+id/buttonStopFromButtons"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stop"
+        android:layout_alignTop="@+id/buttonStartFromButtons"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout" />
+
+    <Button
+        android:id="@+id/buttonStartFromButtons"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/play"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_alignBottom="@+id/textViewTimeFromButtons"
+        android:layout_toLeftOf="@+id/textViewTimeFromButtons"
+        android:layout_toStartOf="@+id/textViewTimeFromButtons" />
+
+
+    <!--
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="165dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_below="@+id/fragment_map"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/buttonStartFromButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:text="Start" />
+
+            <TextView
+                android:id="@+id/textViewTimeFromButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button3"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/buttonStopFromButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/button2"
+                android:layout_weight="1"
+                android:text="Stop" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewIsDoneYet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="103dp"
+            android:text="" /> -->
+</RelativeLayout>
